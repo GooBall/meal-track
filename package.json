@@ -4,7 +4,8 @@
   "description": "Track them meals y'all!",
   "main": "index.js",
   "scripts": {
-    "dev": ""
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/GooBall/meal-track/issues"
   },
-  "homepage": "https://github.com/GooBall/meal-track#readme"
+  "homepage": "https://github.com/GooBall/meal-track#readme",
+  "dependencies": {
+    "diskdb": "^0.1.17",
+    "koa": "^2.11.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "nodemon": "^1.19.4"
+  }
 }
