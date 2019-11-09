@@ -1,0 +1,20 @@
+{
+  "name": "meal-track",
+  "version": "1.0.0",
+  "description": "Track them meals y'all!",
+  "main": "index.js",
+  "scripts": {
+    "dev": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GooBall/meal-track.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GNU v3",
+  "bugs": {
+    "url": "https://github.com/GooBall/meal-track/issues"
+  },
+  "homepage": "https://github.com/GooBall/meal-track#readme"
+}
