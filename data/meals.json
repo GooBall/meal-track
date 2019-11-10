@@ -1,0 +1,157 @@
+[
+  {
+    "_id": "0bd5824a-b88a-5921-b255-e5f5dc108bf0",
+    "title": "A1",
+    "category": "a",
+    "mealTime": "breakfast",
+    "ingredients": [
+      {
+        "name": "Cinnamon and Raisin Bagel",
+        "amount": 1.5,
+        "amountUnit": null
+      },
+      {
+        "name": "Peanut Butter",
+        "amount": 20,
+        "amountUnit": "grams"
+      },
+      { "name": "Jam", "amount": 20, "amountUnit": "grams" },
+      { "name": "Whey", "amount": 30, "amountUnit": "grams" }
+    ]
+  },
+  {
+    "_id": "3631c568-72db-565d-8e30-16e6beeb9a1e",
+    "title": "B1",
+    "category": "b",
+    "mealTime": "breakfast",
+    "ingredients": [
+      {
+        "name": "Wholemeal Toast",
+        "amount": 2,
+        "amountUnit": "piece"
+      },
+      { "name": "Egg", "amount": 3, "amountUnit": null },
+      { "name": "Whey", "amount": 30, "amountUnit": "grams" }
+    ]
+  },
+  {
+    "_id": "babdb724-55f1-58b0-bd9f-2c80c732ba61",
+    "title": "C1",
+    "category": "c",
+    "mealTime": "breakfast",
+    "ingredients": [
+      { "name": "Oats", "amount": 100, "weightUnit": "grams" },
+      { "name": "Banana", "amount": 1, "amountUnit": null },
+      {
+        "name": "Skimmed Milk",
+        "amount": 500,
+        "amountUnit": "ml"
+      },
+      { "name": "Whey", "amount": 30, "amountUnit": "grams" }
+    ]
+  },
+  {
+    "_id": "6d306dda-b8c0-5cc3-8bc0-d6e233a4f28c",
+    "title": "Chicken beast",
+    "category": "a",
+    "mealTime": "lunch",
+    "ingredients": [
+      {
+        "name": "Chicken breast",
+        "amount": 150,
+        "amountUnit": "grams"
+      },
+      {
+        "name": "Microwave rice",
+        "amount": 1,
+        "amountUnit": "pack"
+      },
+      {
+        "name": "Veg",
+        "amount": null,
+        "amountUnit": null
+      },
+      {
+        "name": "Fruit",
+        "amount": 1,
+        "amountUnit": "piece"
+      },
+      {
+        "name": "Cashews",
+        "amount": 30,
+        "amountUnit": "grams"
+      }
+    ]
+  },
+  {
+    "_id": "2added9b-242e-5b59-883b-358a1d4eb4e5",
+    "title": "Wrapped chicken beast",
+    "category": "b",
+    "mealTime": "lunch",
+    "ingredients": [
+      {
+        "name": "Chicken breast",
+        "amount": 150,
+        "amountUnit": "grams"
+      },
+      {
+        "name": "Large wraps",
+        "amount": 2,
+        "amountUnit": null
+      },
+      {
+        "name": "Mayo",
+        "amount": 20,
+        "amountUnit": "grams"
+      },
+      {
+        "name": "Salad",
+        "amount": null,
+        "amountUnit": null
+      },
+      {
+        "name": "Fruit",
+        "amount": 1,
+        "amountUnit": "piece"
+      },
+      {
+        "name": "Nature valley bar",
+        "amount": 1,
+        "amountUnit": "piece"
+      }
+    ]
+  },
+  {
+    "_id": "174be807-3ea0-56f2-a00a-d0759f0d1b33",
+    "title": "Tuna O Tin",
+    "category": "c",
+    "mealTime": "lunch",
+    "ingredients": [
+      {
+        "name": "Tuna",
+        "amount": 1,
+        "amountUnit": "pack"
+      },
+      {
+        "name": "Pasta",
+        "amount": 100,
+        "amountUnit": "grams"
+      },
+      {
+        "name": "Pasta sauce",
+        "amount": 150,
+        "amountUnit": "grams"
+      },
+      {
+        "name": "Cheese",
+        "amount": 50,
+        "amountUnit": "grams"
+      },
+      {
+        "name": "Fruit",
+        "amount": 1,
+        "amountUnit": "piece"
+      }
+    ]
+  }
+]
