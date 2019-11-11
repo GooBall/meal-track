@@ -1,23 +1,30 @@
 import db from "diskdb";
 import moment from "moment";
 
-export const getMeals = () => {
-  db.connect("./data", ["meals"]);
-  return db.meals.find();
+const getQueryParams = urlParams => {
+  const params = {};
+
+  if (urlParams.category) {
+    params.category = urlParams.category;
+  }
+
+  if (urlParams.mealTime) {
+    params.mealTime = urlParams.mealTime;
+  }
+
+  return params;
 };
 
-export const getMealsByTime = mealTime => {
+export const getMeals = urlParams => {
   db.connect("./data", ["meals"]);
-  return db.meals.find({ mealTime: mealTime });
+  const params = urlParams ? getQueryParams(urlParams) : null;
+  return db.meals.find(params);
 };
 
-export const getMealsByCategory = category => {
+export const getMealsForToday = urlParams => {
   db.connect("./data", ["meals"]);
-  return db.meals.find({ category: category });
-};
+  const params = urlParams ? getQueryParams(urlParams) : null;
 
-export const getMealsForToday = () => {
-  db.connect("./data", ["meals"]);
   // Set the start date and fetch today's date
   const startDate = moment([2019, 10, 6]);
   const today = moment();
@@ -30,7 +37,7 @@ export const getMealsForToday = () => {
   const decimal = daysIntoThree - Math.floor(daysIntoThree);
 
   // Based on the decimal, set the category
-  const category = decimal > 0.6 ? "c" : decimal > 0.3 ? "b" : "a";
+  params.category = decimal > 0.6 ? "c" : decimal > 0.3 ? "b" : "a";
 
-  return db.meals.find({ category: category });
+  return db.meals.find(params);
 };
